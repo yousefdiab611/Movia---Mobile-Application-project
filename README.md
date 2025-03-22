@@ -50,4 +50,4 @@ Resolve the errors and warnings that are shown in the application.
 
 ### Support
 
-If you have problems or questions go to our Website, we will then try to help you as quickly as possible: https://dokkan.agency/
+If you have problems or questions go to our Website, we will then try to help you as quickly as possible: godiab072@gmail.com 
