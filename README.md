@@ -33,7 +33,7 @@ Flutter SDK Version 3.0.0 or greater.
 
 3. **Clone the Repository**  
    ```bash
-   git clone https://github.com/your_username/movia.git
+   git clone https://github.com/yousefdiab611/Movia---Mobile-Application-project.git
    cd movia
    ```
 
