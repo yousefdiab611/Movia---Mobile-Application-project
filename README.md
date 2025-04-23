@@ -1,4 +1,3 @@
-
 # movia
 
 <div>
@@ -13,12 +12,48 @@
   </p>
 </div>
 
-
 ### System Requirements
 
-Dart SDK Version 2.17.0 or greater.
+Dart SDK Version 2.17.0 or greater.  
 Flutter SDK Version 3.0.0 or greater.
 
+### 🚀 Steps to Run the Project
+
+1. **Install Flutter SDK**  
+   تأكد إن Flutter متثبت على جهازك. لو مش متثبت:
+   - روح للموقع الرسمي: [flutter.dev](https://flutter.dev/docs/get-started/install)
+   - اتبع الخطوات المناسبة لنظامك (Windows / macOS / Linux)
+
+2. **Run Flutter Doctor**  
+   بعد ما تثبت Flutter، شغّل الأمر ده عشان تتأكد إن كل حاجة تمام:
+   ```bash
+   flutter doctor
+   ```
+   هيعرضلك حالة الأدوات المطلوبة (مثل Android Studio, SDK, Device وغيرها). تأكد إن كلهم عليهم ✔️، لو فيه ❌ أو ⚠️ حاول تصلحهم حسب التعليمات اللي بيعرضها.
+
+3. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/your_username/movia.git
+   cd movia
+   ```
+
+4. **Install Dependencies**  
+   ```bash
+   flutter pub get
+   ```
+
+5. **Run the App on Emulator or Device**  
+   - شغّل المحاكي (Android Emulator) أو وصّل موبايلك بالكمبيوتر  
+   - بعد كده شغّل المشروع:
+     ```bash
+     flutter run
+     ```
+
+6. **Run Tests (اختياري)**  
+   لو عايز تتأكد إن كل حاجة شغالة كويس:
+   ```bash
+   flutter test
+   ```
 
 ### App Navigations
 
@@ -31,12 +66,13 @@ After successful build, your application structure should look like this:
 .
 ├── main.dart                   - starting point of the application
 ├── core
-│   ├── app_export.dart         - contains commonly used file imports                
-│   ├── constants               - contains static constant class file
-│   └── utils                   - contains common files and utilities of project
+│   ├── app_export.dart         - contains commonly used file imports                
+│   ├── constants               - contains static constant class file
+│   └── utils                   - contains common files and utilities of project
 ├── presentation               
     └── screens                 - contains all screens
 ```
+
 ### How you can do code formatting?
 
 - if your code is not formatted then run following command in your terminal to format code
@@ -52,12 +88,9 @@ Resolve the errors and warnings that are shown in the application.
 
 If you have problems or questions go to our Website, we will then try to help you as quickly as possible: Eng:Diab -  godiab072@gamil.com - Leader Team Swift Minds
 
-
-Our Team
+---
 
 ## 📱 Movia App - Team Structure
-
----
 
 ### 🎨 Design Team
 1. *Hany* – UI/UX Layout Designer  
@@ -81,6 +114,7 @@ Our Team
 ---
 
 ### 💻 Development Team (Code)
+
 *Project Structure:*
 - UI Screens
 - State Management
@@ -116,7 +150,6 @@ Our Team
    - Defines app theme (Colors, Fonts, Buttons)  
    - Manages routes.dart for navigation  
    - Builds reusable widgets (CustomButton, RatingStars, MovieImage)
-
 
 ```   
 movia/
@@ -164,6 +197,5 @@ movia/
 │       └── category_ui.png
 ├── README.md                           # يوسف - إدارة وتنسيق المشروع
 └── pubspec.yaml
-
 ```
 
