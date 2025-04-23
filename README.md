@@ -117,7 +117,8 @@ Our Team
    - Manages routes.dart for navigation  
    - Builds reusable widgets (CustomButton, RatingStars, MovieImage)
 
-   
+
+```   
 movia/
 ├── lib/
 │   ├── models/                          # Diab
@@ -164,5 +165,5 @@ movia/
 ├── README.md                           # يوسف - إدارة وتنسيق المشروع
 └── pubspec.yaml
 
-
+```
 
