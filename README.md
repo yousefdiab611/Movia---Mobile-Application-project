@@ -4,7 +4,7 @@
 <div>
   <h1 align="center">Getting Started with Flutter 🚀 </h1>
   <strong>
-    Made with ❤️ by Swift Minds | علي الله حكايته
+    Made with ❤️ by Swift Minds | Team Leader  : Eng / Yousef Diab
   </strong>
   <p>
     This is the documentation of Flutter Applications.
